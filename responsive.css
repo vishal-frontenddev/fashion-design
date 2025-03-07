@@ -1,0 +1,139 @@
+@media screen and (max-width: 800px) { 
+
+    /* header */
+
+    .navbar {
+        background-color: #e5c641;
+    }
+    .nav__logo {
+        color: #333;
+    }
+    .nav__links {
+        width: 100%;
+        flex-direction: column;
+        justify-content: center;
+        background-color: #e5c641;
+        position: absolute;
+        top: -100%;
+        margin-top: 75px;
+        padding: 40px 0;
+        z-index: 1111;
+        gap: 20px;
+        position: fixed;
+    }
+    .nav__links a:hover {
+        color: #1b1b1a;
+      }
+    .btn:hover {
+        background-color: #dad7ce;
+      }
+    .nav__links li  a {
+        color: #fff;
+    }
+    .menu-bar{
+        height: auto;
+        width: 40px;
+        display: flex;
+        justify-content: center;  
+        align-items: center;
+        margin-right: 8px;
+    }
+    .menu-bar i {
+        font-size: 26px;
+        color: #fff;
+    }
+
+
+    /* hero-sec */
+    .hero-sec {
+        height: auto;
+        width: 100%;
+    }
+    .hero-sec-main {
+        /* height: auto; */
+        width: 90%;
+        flex-direction: column;
+    }
+    .hero-cont {
+        width: fit-content;
+    }
+    .hero-cont-sec-img {
+        height: auto;
+        width: fit-content;
+        margin-top: 20px;
+    }
+
+    /* arrival */
+    .arrival {
+        width: 90%;
+        margin: 0;
+    }
+    .arrival  h2 {
+        font-size: 30px;
+    }
+    .arrival-row {
+        
+        flex-direction: column;
+    }
+    .arrival-imgages {
+        width: 100%;
+    }
+
+
+    /* sale */
+    .sale-main {
+        flex-direction: column;
+        gap: 30px;
+        width: 100%;
+        margin: 50px;
+        /* background-color: green; */
+    }
+    .sale-image {
+        height: auto;
+        width: 100%;
+    }
+    .sale-cont {
+        height: auto;
+        width: 100%;
+    }
+    .sale-cont h2 span::before  {
+        left: -40px;
+    }
+
+    /* favourite */
+    
+    .favourite-page {
+        width: 90%;
+        margin: 50px 0;
+    }
+    .favourite-row {
+        flex-direction: column;
+    }
+    .favourite-images {
+        width: 100%;
+    }
+
+    /* download-sec */
+
+    .download-page {
+        flex-direction: column;
+        width: 90%;
+        margin: 50px 0;
+        gap: 20px;
+    }
+    .download-cont {
+        height: auto;
+        width: 100%;
+    }
+
+    /* promo-se */
+    .promo-sec {
+        width: 100%;
+    }
+
+    /* footer-sec */
+    .footer-main {
+        flex-direction: column;
+        gap: 60px;
+    }
+}
